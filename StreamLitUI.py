@@ -36,7 +36,7 @@ if submit_button:  # Check if the button was clicked
 
       # Prepare the data to be sent with the specified structure
       payload = {
-        "chatInput": json.dumps(user_input),
+        "chatInput": f'There are 2 collections in the mongo Database - askDB : Products and document_metadata. ' + str(json.dumps(user_input)),
         "sessionId": st.session_state.session_id,
         "user": "user"
       }
