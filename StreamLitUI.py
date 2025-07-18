@@ -32,7 +32,7 @@ if submit_button:  # Check if the button was clicked
 
     try:
       # Define the API endpoint
-      api_url = "https://isha-vankineni.app.n8n.cloud/webhook/f610096a-b5d7-4ea6-a46b-3315f6d8865c"
+      api_url = "https://raviranjan2.app.n8n.cloud/webhook/send-message"
 
       # Prepare the data to be sent with the specified structure
       payload = {
